@@ -1,0 +1,29 @@
+body {
+  background-color: bisque;
+}
+.largeBox {
+    position: block;
+	width: 100%;
+}
+
+.largeBox img {
+    width: 350px;
+   
+}
+
+.largeBox h2 {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+
+@media (max-width: 1100px) {
+    .largeBox img {
+        display: block;
+        margin: auto;
+    }
+    
+    .largeBox blockquote {
+    padding-left: 30%;
+    }
+}

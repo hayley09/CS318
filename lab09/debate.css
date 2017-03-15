@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+    margin: 0;
+}
+
+h1 {
+    font-size: 36pt;
+    text-align: center;
+    box-shadow:  inset 0px 10px 20px #888888;
+    background-image: linear-gradient(to right, aquamarine, white, aqua);
+    padding: 20px;
+}
+.blurb {
+    width: 90%;
+    box-shadow: 10px 10px 5px #888888;
+    border-width: 1px;
+    border-style: solid;
+    min-height: 202px;
+    min-width: 400px;
+    background-size: 200px;
+    border-radius: 100px;
+    margin: 10px;
+    background-repeat: no-repeat;
+}
+
+.right {
+    background-color: aqua;
+    margin-left: auto;
+    font-family: 'Sansita', sans-serif;
+    background-image: url(rabbit.gif);
+    background-position: right;
+    padding-right: 220px;
+    padding-left: 40px;
+
+}
+
+.left {
+    background-color: aquamarine;
+    font-family: 'Caveat Brush', cursive;
+    background-image: url(roosevelt.jpg);
+    padding-left: 220px;
+    padding-right: 40px;
+}
+.first {
+    color: aqua;
+}
+
+.last {
+    color: aquamarine;
+}
+
+

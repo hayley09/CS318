@@ -1,0 +1,15 @@
+#for .css
+
+body{ 
+	background-color: rgb(0,255,0);
+}
+
+p{
+	font-style: italic;
+	width: 25%;
+}
+
+#in .html
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
