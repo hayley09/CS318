@@ -1,0 +1,80 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+ul li{
+    width: 60px;
+    margin-bottom: 5px;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background: white;
+    margin: 10px;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: white;
+    margin: 10px;
+	border-radius: 50px;
+}
+
+ol li{
+    margin: 35px;
+}
+
+.one{
+    width: 80px;
+	height: 80px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white #333235 #333235 #333235;
+}
+
+.two{
+    width: 80px;
+	height: 80px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white #333235 white #333235;
+}
+
+.three{
+    width: 80px;
+	height: 80px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white white white #333235;
+}
+
+.four{
+    width: 80px;
+	height: 80px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white white white white;
+}
