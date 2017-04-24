@@ -1,0 +1,177 @@
+body{
+    font-family: "helvetica";
+    margin: 0px;
+}
+
+table {
+    display: inline-block;
+    float: clear;
+    margin-top: 5%;
+    margin-left: 40%;
+        
+}
+
+tr {
+    background-color: darkgray;
+    width: 25em;         
+    text-align: center;    
+}
+      
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr td:first-child {
+    text-align: left;
+}
+
+tr td:last-child {
+    text-align: right;
+}
+
+tr th:first-child {
+    text-align: left;
+}
+
+tr th:last-child {
+    text-align: right;
+}
+
+header {
+    
+    color: white;
+    background-color: brown;
+    width: 100%;
+    height: 50px;
+    
+}
+
+h1{
+    margin: 0px;
+    padding-top: 5px;
+    
+}
+
+nav {
+    background-color: darkblue;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ffffff;  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    color: white;
+}
+
+.label {
+    position: relative;
+    display: inline;
+    padding:10px;
+    padding-left: none;
+    border-right: 1px solid #ffffff;  
+}
+
+.label:hover {
+    background-color: dimgrey;
+    cursor: pointer;
+}
+
+.label:hover .menu {
+    display: block;
+}
+
+.menu {
+    position: absolute;
+    background-color: dimgrey;
+    display: none;
+    top: 38px;
+    left: 0;
+    text-decoration: none;
+}
+
+.menu ul li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    padding-right: 25px;
+    border-bottom: 1px solid #ffffff;
+    width: 100px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color: darkblue;
+}
+
+@media (max-width: 40em) {
+    nav {
+        display: none;
+    }
+    
+    .label {
+        visibility: visible;
+        position: absolute;
+        padding: 0px;
+        right:0px;
+        top: 0px;
+        bottom: 0;
+        font-size: 2em;
+        border-left: 1px solid #ffffff;
+        background-color: grey;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+    }
+    
+    .menu {
+        background-color: grey;
+        position: absolute;
+        bottom: auto;
+        right: 0px;
+        left: -150px;
+        top: 25px;
+        list-style-type: none;
+        font-size: 25px;
+        color: #ffffff;
+    }
+    
+    .menu li {
+        text-align: left;
+        margin-left: -40px;
+        padding: 5px;
+        padding-right: 250px;
+        border-bottom: 1px solid #ffffff;
+        width: 100px;
+    
+    }
+    
+    table {
+        margin-left: 20%;
+    }
+    
+    
+    
+    
+}
+
+header div {
+    visibility: hidden;
+}
+
+
+
+
+
+
+

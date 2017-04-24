@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CFSA - Homepage</title>
+        <link rel="stylesheet" href="cfsa.css">
+    </head>
+    <body>
+        <header>
+            <div class="header">
+            <img src="logo.png">
+            <h1>中 华 友 谊 学 术 会<br>
+            Chinese Friendship and Scholarship Association</h1>
+            </div>
+        </header>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">About CFSA</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="board.html">Board Members</a></li>
+                <li><a href="membership.html">Membership Info</a></li>
+            </ul>
+        </div>
+        <div class="membership">
+            <h2>Who may join?</h2>
+            <p>CFSA membership is open to anyone regardless of ethnicity, religion, or political persuasion, in the Chippewa Valley, Eau Claire, and northwest Wisconsin region, who like to be actively involved in sharing Chinese culture with others.</p>
+            <p>Please fill out the membership application form below to join.</p>
+            <p>If you want to become a full member, please send in a check and make it payable to  Chinese Friendship and Scholarship Association) to:</p>
+            <blockquote><strong>
+                CFSA Attention: Simei Tong<br>
+                Math Department, UWEC<br>
+                Eau Claire, WI 54701
+            </strong></blockquote>
+        </div>
+        <div id="form">
+            <form action="https://formspree.io/heahwy6956@uwec.edu" method="POST">
+            <h2> CFSA Membership Application </h2>
+            <p><label>First Name 
+            <input type="text" name="first_name" required></label></p>
+            <p><label>Last Name 
+            <input type="text" name="last_name"></label></p>
+            <p><label>Phone Number 
+            <input type="tel" name="phone_number"></label></p>
+            <p><label>Email  
+            <input type="email" name="email_address"></label></p>
+            <p><label>Address  
+            <input type="text" name="address"></label></p>
+            <fieldset>
+                <legend><strong> Additional Member </strong></legend>
+                <p><label>First Name  <input type="text" name="first_name"></label></p>
+                <p><label>Last Name  <input type="text" name="last_name"></label></p>
+                <p><label>Relationship  <input type="text" name="relationship"></label></p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><strong> Payment Type </strong></legend>
+                <p><label> <input type="checkbox" name="payment" value="cash"> Cash </label></p>
+                <p><label> <input type="checkbox" name="payment" value="check"> Check </label></p>
+                <p><label> Other <input type="text" name="payment"></label></p>
+            </fieldset>
+            <h3 align="center">Declaration</h3>
+            <p><label> <input type="checkbox" name="declaration" value="agree"> I support the aim of Chinese Fellowship and Scholarship Association and would like to apply for membership. </label></p>
+            <p><label>Date
+            <input type="date" name="date"></label></p>
+            <p><label>Signature (Sign your name)
+            <input type="text" name="signature"></label></p>
+            <p><label>Anything else we should know?
+            <textarea name="comments" rows="8" cols="80" placeholder="Type your comment here."></textarea></label></p>
+            <input type="submit" id="button" value="Send">
+            </form>
+        </div>
+    </body>
+</html>
